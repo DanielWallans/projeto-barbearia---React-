@@ -29,12 +29,7 @@ const Header = () => {
     }
   };
 
-  const scrollToBooking = () => {
-    const element = document.getElementById('agendamento');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+
 
   const handleWhatsAppClick = () => {
     const phoneNumber = '5511999999999'; // Substitua pelo número real
@@ -88,7 +83,7 @@ const Header = () => {
           <div className="header-actions">
             <motion.button 
               className="whatsapp-btn header-booking-btn"
-              onClick={scrollToBooking}
+              onClick={handleWhatsAppClick}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
