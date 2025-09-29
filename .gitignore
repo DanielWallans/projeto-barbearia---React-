@@ -80,7 +80,7 @@ dist
 
 # Gatsby files
 .cache/
-public
+# public - Comentado para React app (pasta public deve ser commitada)
 
 # Storybook build outputs
 .out
